@@ -1,0 +1,18 @@
+{
+  "name": "mysimbdp-batchingestmanager",
+  "version": "1.0.0",
+  "description": "Manages the SFTP server and runs clientbatchingestapp programms when new files are staged",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Serhii Korzh",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "ftp-srv": "^4.2.0"
+  }
+}

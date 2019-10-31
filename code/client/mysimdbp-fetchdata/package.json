@@ -1,0 +1,22 @@
+{
+  "name": "mysimbdp-fetchdata",
+  "version": "1.0.0",
+  "description": "checks for changes in a folder and pushes the files to the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Serhii Korzh",
+  "license": "ISC",
+  "dependencies": {
+    "basic-ftp": "^4.4.1",
+    "chokidar": "^3.2.3",
+    "dotenv": "^8.2.0",
+    "sftp-promises": "^1.7.0",
+    "ssh2": "^0.8.5"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
