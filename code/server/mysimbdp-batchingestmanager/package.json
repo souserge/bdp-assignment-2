@@ -13,6 +13,9 @@
     "standard": "^14.3.1"
   },
   "dependencies": {
-    "ftp-srv": "^4.2.0"
+    "bluebird": "^3.7.1",
+    "dotenv": "^8.2.0",
+    "ftp-srv": "^4.2.0",
+    "node-cmd": "^3.0.0"
   }
 }

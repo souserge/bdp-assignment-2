@@ -24,6 +24,10 @@ function getConfig () {
 }
 
 function isFileAllowed (config, filepath) {
+  const filename = path.basename(filepath)
+  if (filename === '.DS_Store') {
+    return false
+  }
   return true
 }
 

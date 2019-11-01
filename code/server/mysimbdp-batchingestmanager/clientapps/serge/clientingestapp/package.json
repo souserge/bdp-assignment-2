@@ -1,0 +1,15 @@
+{
+  "name": "clientingestapp",
+  "version": "1.0.0",
+  "description": "Ingestion app for the client Serge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serge Client",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.6.5",
+    "mongodb": "^3.3.3"
+  }
+}
