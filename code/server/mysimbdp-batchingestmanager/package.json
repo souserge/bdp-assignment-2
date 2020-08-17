@@ -15,7 +15,7 @@
   "dependencies": {
     "bluebird": "^3.7.1",
     "dotenv": "^8.2.0",
-    "ftp-srv": "^4.2.0",
+    "ftp-srv": "^4.3.4",
     "node-cmd": "^3.0.0"
   }
 }
