@@ -14,7 +14,7 @@
     "chokidar": "^3.2.3",
     "dotenv": "^8.2.0",
     "sftp-promises": "^1.7.0",
-    "ssh2": "^0.8.5"
+    "ssh2": "^1.4.0"
   },
   "devDependencies": {
     "standard": "^14.3.1"
